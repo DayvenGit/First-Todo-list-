@@ -12,7 +12,7 @@ body {
  justify-content: center;
  height: 100vh;
  background-image: linear-gradient(to bottom right, #001aff, #890adfd3);
- max-width: 900px;
+ max-width: 800px;
  width: 100%;
  margin-left: auto;
  margin-right: auto;
@@ -24,7 +24,8 @@ body {
  width: 70%;
  border-radius: 10px;
  padding: 2rem;
- box-shadow: 0 15;
+ box-shadow: 0 15px 40px -20px black;
+
 }
 
 .todo_title {
@@ -50,26 +51,31 @@ body {
 
 .list_display {
  list-style-type: none;
- margin-left: 2.5rem;
+ margin-left: .5rem;
  margin-top: .75rem;
  font-size: 1.75rem;
  font-weight: 600;
 }
 
 li {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgba(20, 20, 20, 0.3);
 }
 
 button {
-  margin-left: 1rem;
+  margin-left: auto;
   text-align: center;
   background: #ff1d1d;
   border: none;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.65rem;
+  width: 1.65rem;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 1.25rem;
 }

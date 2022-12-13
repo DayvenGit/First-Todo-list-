@@ -40,7 +40,7 @@ function displayList() {
     let listItem = document.createElement("li");
     listItem.innerHTML = item;
     let removeButton = document.createElement("button");
-    removeButton.innerHTML = "Remove";
+    removeButton.innerHTML = "X";
     removeButton.onclick = function() {
       removeItem(item);
     };
